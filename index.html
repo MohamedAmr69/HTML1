@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Portfolio</title>
+    <style>
+      nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      nav {
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: crimson;
+        font-size: large;
+      }
+      p {
+        text-align: left;
+        font-size: 18px;
+      }
+      .border1 {
+        background-color: lightgrey;
+        width: 300px;
+        padding: 1%;
+        margin: 30px 50px 40px 110px;
+        border-radius: 25px;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .social-links {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="text-align: center; color: darkred">
+      <h1>Portfolio</h1>
+      <br />
+      <br />
+    </header>
+
+    <nav>
+      <ul style="display: inline-block; list-style: none">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Resume</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <hr />
+    </nav>
+    <!-- About section -->
+    <section class="About">
+      <h2 style="color: cadetblue"><pre>    About</pre></h2>
+      <br />
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia sit
+        cumque doloremque voluptatem et quisquam recusandae ex quaerat rerum
+        ipsa rem harum, libero dolorum repudiandae minima pariatur labore
+        provident nam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Sed blanditiis, ipsa quia quidem cupiditate commodi! Ex modi enim ab
+        dignissimos minus nesciunt, eaque quod porro eum quos possimus
+        laboriosam voluptas.
+      </p>
+    </section>
+    <br />
+    <!-- Work section  -->
+    <section>
+      <h2 style="color: cadetblue"><pre>    Work</pre></h2>
+      <p>Here is some of my work &rArr;</p>
+      <br />
+      <div class="work">
+        <div class="border1">
+          <a href="https://genius.com/albums/Pusha-t/Daytona" target="_blank"
+            ><img src="images/pic1.jpg" alt="" width="300px" height="300px"
+          /></a>
+          <h4>Daytona by Pusha T</h4>
+        </div>
+        <div class="border1">
+          <a
+            href="https://genius.com/albums/Pusha-t/it-s-almost-dry"
+            target="_blank"
+            ><img src="images/pic2.png" alt="" width="300px" height="300px"
+          /></a>
+          <h4>It's Almost Dry by Pusha T</h4>
+        </div>
+        <div class="border1">
+          <a
+            href="https://genius.com/albums/kids-see-ghosts/kids-see-ghosts"
+            target="_blank"
+            ><img src="images/pic3.jpeg" alt="" width="300px" height="300px"
+          /></a>
+          <h4>Kids See Ghosts by Kids See Ghosts</h4>
+        </div>
+      </div>
+      <br />
+      <hr />
+    </section>
+    <!-- Contact us section -->
+    <div class="container">
+      <div style="text-align: center">
+        <h2><strong>Contact Us</strong></h2>
+        <h3>leave us a message</h3>
+        <hr />
+        <br />
+      </div>
+      <form action="">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your first name"
+        /><br /><br />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name"
+        /><br /><br />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" />
+        <br /><br />
+
+        <label for="Branch">Branch</label>
+        <select name="branch" id="branch">
+          <option value="maadi">Maadi</option>
+          <option value="dokki">Dokki</option>
+          <option value="zamlek">Zamlek</option>
+          <option value="nasr city">Nasr City</option>
+          <option value="manial">Manial</option>
+        </select>
+        <br />
+        <label for="opinion">Your opinion</label>
+        <textarea
+          name="opinion"
+          id="opinion"
+          cols="30"
+          rows="10"
+          placeholder="Write your opinion"
+        ></textarea> <br>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+        <br />
+        <br />
+      </form>
+    </div>
+    <br />
+    <hr />
+    <!-- Footer -->
+    <footer>
+      <div>
+        <h4 style="text-align: center; font-size: 22px">About me</h4>
+        <p style="text-align: center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+          impedit nobis recusandae, voluptates laborum id veniam tempora rerum
+          nam possimus delectus quis voluptate dignissimos harum facilis
+          reprehenderit at et magnam?
+        </p>
+      </div>
+      <div class="social-links">
+        <a href="#"> <i class="fab fa-facebook-f"></i></a>
+        <a href="#"> <i class="fab fa-twitter"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
